@@ -1,4 +1,36 @@
 UniversalCodeConverter
 ======================
 
-Universal text converter XML code table based. http://lab.uyghurdev.net/CodeConverter/Default.aspx
+Universal text converter XML code table based. 
+Live demo: http://lab.uyghurdev.net/CodeConverter/Default.aspx
+
+ئۇنۋىرسال كود ئالماشتۇرغۇچ
+=======================
+ئۇيغۇر تىلىدىكى ئوخشىمىغان كىرگۈزگۈچلەردە كىرگۈزۈلگەن يېزىقلارنى ئۆز ئارا ئايلاندۇرۇش ئىھتىياجى بىلەن بۇ كود ئالماشتۇرغان تۈزۈلگەن.
+ئالماشتۇرىدىغان كود جەدىۋىلى XML فورماتىدا تەمىنلەنگەن بولۇپ پىروگرامما كودىغا چېقىلماي تۇرۇپمۇ يېڭىدىن كود جەدىۋىلى قوشۇشقا بولىدۇ.
+
+توردىكى سىناش ئادرىسى: http://lab.uyghurdev.net/CodeConverter/Default.aspx
+
+پىروگرامما كودى بىلەن تەمىنلەنگەن كود جەدىۋىلى تۆۋەندىكىلەرنى ئۆز ئىچىگە ئالىدۇ:
+*ئەلكاتىپتىن يۇنىكودقا
+*ئالماستىن يۇنىكودقا
+*ئەلپىدادىن يۇنىكودقا
+*ئەلياردىن يۇنىكودقا
+*ئەپەندىدىن يۇنىكودقا
+*بىلىگياردىن يۇنىكودقا
+*سىلاۋىيانچىدىن يۇنىكودقا
+*دۇلدۇلدىن يۇنىكودقا
+*مارستىن يۇنىكودقا
+*يىپەك يولىدىن يۇنىكودقا
+*تەكلىماكاندىن يۇنىكودقا
+*ئۇيغۇر يېزىقىدىن لاتىنجىگە
+*لاتىنجە يېزىقتىن ئۇيغۇرچىغا
+
+##usage:
+##ئىشلىتىش ئۇسۇلى:
+
+'''
+string strCodeTableFile="";
+net.uyghurdev.text.CodeConvert cc = new net.uyghurdev.text.CodeConvert(strCodeTableFile);
+txtNew.Text = cc.ToConvert(txtSource.Text);
+'''
