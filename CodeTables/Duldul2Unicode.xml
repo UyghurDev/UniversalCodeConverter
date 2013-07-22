@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeConvert Name="دۇلدۇلدىن يۇنىكودقا" Descraption="دۇلدۇل   كىرگۈزگۈچتە كىرگۈزۈلگەن تېكىستنى ئۆلچەملىك يۇنىكودقا ئايلاندۇرىدۇ" Author="سارۋان">
+  <Codes>
+    <code SourceCode="ظ" ReplaceCode="ئ" isCompound="false" ></code>
+    <code SourceCode="ة" ReplaceCode="ە" isCompound="false" ></code>
+    <code SourceCode="ث" ReplaceCode="ڭ" isCompound="false" ></code>
+    <code SourceCode="ه" ReplaceCode="ھ" isCompound="false" ></code>
+    <code SourceCode="ذ" ReplaceCode="ۇ" isCompound="false" ></code>
+    <code SourceCode="أ" ReplaceCode="ۆ" isCompound="false" ></code>
+    <code SourceCode="إ" ReplaceCode="ۈ" isCompound="false" ></code>
+    <code SourceCode="ؤ" ReplaceCode="ۋ" isCompound="false" ></code>
+    <code SourceCode="ص" ReplaceCode="ې" isCompound="false" ></code>
+    <code SourceCode="ئ" ReplaceCode="ى" isCompound="false" ></code>
+    <code SourceCode="آ" ReplaceCode="ژ" isCompound="true" ></code>
+
+    <!--
+    <code SourceCode="ب" ReplaceCode="ب" isCompound="false" ></code>
+    <code SourceCode="ا" ReplaceCode="ا" isCompound="false" ></code>
+    <code SourceCode="ج" ReplaceCode="ج" isCompound="false" ></code>
+    <code SourceCode="د" ReplaceCode="د" isCompound="false" ></code>
+    <code SourceCode="ف" ReplaceCode="ف" isCompound="false" ></code>
+    <code SourceCode="ك" ReplaceCode="ك" isCompound="false" ></code>
+    <code SourceCode="ل" ReplaceCode="ل" isCompound="false" ></code>
+    <code SourceCode="م" ReplaceCode="م" isCompound="false" ></code>
+    <code SourceCode="ن" ReplaceCode="ن" isCompound="false" ></code>
+    <code SourceCode="و" ReplaceCode="و" isCompound="false" ></code>
+    <code SourceCode="ق" ReplaceCode="ق" isCompound="false" ></code>
+    <code SourceCode="ر" ReplaceCode="ر" isCompound="false" ></code>
+    <code SourceCode="س" ReplaceCode="س" isCompound="false" ></code>
+    <code SourceCode="ت" ReplaceCode="ت" isCompound="false" ></code>
+    <code SourceCode="خ" ReplaceCode="خ" isCompound="false" ></code>
+    <code SourceCode="ي" ReplaceCode="ي" isCompound="false" ></code>
+    <code SourceCode="ز" ReplaceCode="ز" isCompound="false" ></code>
+    <code SourceCode="ش" ReplaceCode="ش" isCompound="false" ></code>
+    <code SourceCode="غ" ReplaceCode="غ" isCompound="false" ></code>
+    <code SourceCode="،" ReplaceCode="،" isCompound="false" ></code>
+    <code SourceCode="؛" ReplaceCode="؛" isCompound="false" ></code>
+    <code SourceCode="؟" ReplaceCode="؟" isCompound="false" ></code>
+    <code SourceCode="پ" ReplaceCode="پ" isCompound="false" ></code>
+    <code SourceCode="چ" ReplaceCode="چ" isCompound="false" ></code>
+    <code SourceCode="گ" ReplaceCode="گ" isCompound="false" ></code>
+-->
+    <Regex>
+      <!--<Replace Regex="" Replacement="" ReplaceTime="End"></Replace>-->
+    </Regex>
+  </Codes>
+</CodeConvert>

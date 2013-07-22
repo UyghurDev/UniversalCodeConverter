@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeConvert Name="Cyrillicتىن  ئۇيغۇر يېزىقىغا" Descraption="ئوتتۇرا ئاسىيادىكى بىر قىسىم دۆلەتلەردە قوللىنىلىدىغان ئۇيغۇر يېزىقىدىكى تېكىستلەرنى ھازىرقى زامان ئۇيغۇر يېزىقىغا ئايلاندۇرىدۇ" Author="سارۋان">
+  <Codes>
+    <!--
+    1.Perso-Arabic script 	
+    2.Latin 	
+    3.Cyrillic 	
+    4.ULY 	
+    5.Turkish 	
+    6.IPA 	  	
+    1   2     3     4     5     6     1   2     3     4     5     6
+    ئا 	A a 	A a 	A a 	A a 	/a/ 	ق 	Ķ ķ 	Қ қ 	Q q 	K k 	/q/
+    ئە 	Ə ə 	Ə ə 	E e 	E e 	/æ/ 	ك 	K k 	K k 	K k 	K k 	/k/
+    ب 	B b 	Б б 	B b 	B b 	/b/ 	ڭ 	-ng 	Ң ң 	-ng 	-ng 	/ŋ/
+    پ 	P p 	П п 	P p 	P p 	/p/ 	گ 	G g 	Г г 	G g 	G g 	/ɡ/
+    ت 	T t 	Т т 	T t 	T t 	/t/ 	ل 	L l 	Л л 	L l 	L l 	/l/
+    ج 	J j 	Җ җ 	J j 	C c 	/ʤ/ 	م 	M m 	М м 	M m 	M m 	/m/
+    چ 	Q q 	Ч ч 	CH ch 	Ç ç 	/ʧ/ 	ن 	N n 	Н н 	N n 	N n 	/n/
+    خ 	H h 	X x 	X x 	H h 	/x/ 	ھ 	H̡ h̡ 	Һ һ 	H h 	H h 	/h/
+    د 	D d 	Д д 	D d 	D d 	/d/ 	ئو 	O o 	О о 	О о 	O o 	/o/
+    ر 	R r 	Р р 	R r 	R r 	/r/ 	ئۇ 	U u 	У у 	U u 	U u 	/u/
+    ز 	Z z 	З з 	Z z 	Z z 	/z/ 	ئۆ 	Ɵ ɵ 	Ө ө 	Ö ö 	Ö ö 	/ø/
+    ژ 	    Ⱬ ⱬ 	   Ж ж 	J j 	J j 	/ʒ/ 	ئۈ 	Ü ü 	Ү ү 	Ü ü 	Ü ü 	/y/
+    س 	S s 	С с 	S s 	S s 	/s/ 	ۋ 	V v 	В в 	W w 	V v 	/v/
+    ش 	X x 	Ш ш 	SH sh 	Ş ş 	/ʃ/ 	ئې 	E e 	E e 	É é 	E e 	/e/
+    غ 	Ƣƣ 	Ғ ғ 	GH gh 	Ğ ğ 	/ʁ/ 	ئى 	I i 	И и 	I i 	İ i/I ı 	/i/ or /ɨ/
+    ف 	F f 	Ф ф 	F f 	F f 	/f/ 	ي 	Y y 	Й й 	Y y 	Y y 	/j/
+    -->
+    <code SourceCode="а" ReplaceCode="ا" isCompound="false" ></code>
+    <code SourceCode="б" ReplaceCode="ب" isCompound="false" ></code>
+    <code SourceCode="ч" ReplaceCode="چ" isCompound="false" ></code>
+    <code SourceCode="д" ReplaceCode="د" isCompound="false" ></code>
+    <code SourceCode="ә" ReplaceCode="ە" isCompound="false" ></code>
+    <code SourceCode="ф" ReplaceCode="ف" isCompound="false" ></code>
+    <code SourceCode="г" ReplaceCode="گ" isCompound="false" ></code>
+    <code SourceCode="Һ" ReplaceCode="ھ" isCompound="false" ></code>
+    <code SourceCode="һ" ReplaceCode="ھ" isCompound="false" ></code>
+    <code SourceCode="и" ReplaceCode="ى" isCompound="false" ></code>
+    <code SourceCode="җ" ReplaceCode="ج" isCompound="false" ></code>
+    <code SourceCode="к" ReplaceCode="ك" isCompound="false" ></code>
+    <code SourceCode="л" ReplaceCode="ل" isCompound="false" ></code>
+    <code SourceCode="m" ReplaceCode="م" isCompound="false" ></code>
+    <code SourceCode="м" ReplaceCode="م" isCompound="false" ></code>
+    <code SourceCode="н" ReplaceCode="ن" isCompound="false" ></code>
+    <code SourceCode="о" ReplaceCode="و" isCompound="false" ></code>
+    <code SourceCode="п" ReplaceCode="پ" isCompound="false" ></code>
+    <code SourceCode="қ" ReplaceCode="ق" isCompound="false" ></code>
+    <code SourceCode="р" ReplaceCode="ر" isCompound="false" ></code>
+    <code SourceCode="с" ReplaceCode="س" isCompound="false" ></code>
+    <code SourceCode="т" ReplaceCode="ت" isCompound="false" ></code>
+    <code SourceCode="у" ReplaceCode="ۇ" isCompound="false" ></code>
+    <code SourceCode="У" ReplaceCode="ۇ" isCompound="false" ></code>
+    <code SourceCode="в" ReplaceCode="ۋ" isCompound="false" ></code>
+    <code SourceCode="х" ReplaceCode="خ" isCompound="false" ></code>
+    <code SourceCode="й" ReplaceCode="ي" isCompound="false" ></code>
+    <code SourceCode="з" ReplaceCode="ز" isCompound="false" ></code>
+    <code SourceCode="ш" ReplaceCode="ش" isCompound="true" ></code>
+    <code SourceCode="ch" ReplaceCode="چ" isCompound="true" ></code>
+    <code SourceCode="ж" ReplaceCode="ژ" isCompound="true" ></code>
+    <code SourceCode="ғ" ReplaceCode="غ" isCompound="true" ></code>
+    <code SourceCode="ң" ReplaceCode="ڭ" isCompound="true" ></code>
+    <code SourceCode="é" ReplaceCode="ې" isCompound="false" ></code>
+    <code SourceCode="е" ReplaceCode="ې" isCompound="false" ></code>
+    <code SourceCode="ө" ReplaceCode="ۆ" isCompound="false" ></code>
+    <code SourceCode="ү" ReplaceCode="ۈ" isCompound="false" ></code>
+    <code SourceCode="," ReplaceCode="،" isCompound="false" ></code>
+    <code SourceCode=";" ReplaceCode="؛" isCompound="false" ></code>
+    <code SourceCode="?" ReplaceCode="؟" isCompound="false" ></code>
+    <Regex>
+      <Replace Regex="\s[ا]" Replacement=" ئا" ReplaceTime="End"></Replace>
+      <Replace Regex="\s[ە]" Replacement=" ئە" ReplaceTime="End"></Replace>
+      <Replace Regex="\s[ې]" Replacement=" ئې" ReplaceTime="End"></Replace>
+      <Replace Regex="\s[ى]" Replacement=" ئى" ReplaceTime="End"></Replace>
+      <Replace Regex="\s[و]" Replacement=" ئو" ReplaceTime="End"></Replace>
+      <Replace Regex="\s[ۇ]" Replacement=" ئۇ" ReplaceTime="End"></Replace>
+      <Replace Regex="\s[ۆ]" Replacement=" ئۆ" ReplaceTime="End"></Replace>
+      <Replace Regex="\s[ۈ]" Replacement=" ئۈ" ReplaceTime="End"></Replace>
+      <Replace Regex="\A[ا]" Replacement="ئا" ReplaceTime="End"></Replace>
+    </Regex>
+  </Codes>
+</CodeConvert>
