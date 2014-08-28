@@ -29,8 +29,8 @@ Live demo: http://lab.uyghurdev.net/CodeConverter/Default.aspx
 ##usage:
 ##ئىشلىتىش ئۇسۇلى:
 
-<code>
-string strCodeTableFile="";<br/>
-net.uyghurdev.text.CodeConvert cc = new net.uyghurdev.text.CodeConvert(strCodeTableFile);<br/>
-txtNew.Text = cc.ToConvert(txtSource.Text);<br/>
-</code>
+'''
+string strCodeTableFile="";
+net.uyghurdev.text.CodeConvert cc = new net.uyghurdev.text.CodeConvert(strCodeTableFile);
+txtNew.Text = cc.ToConvert(txtSource.Text);
+'''
