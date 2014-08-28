@@ -29,7 +29,7 @@ Live demo: http://lab.uyghurdev.net/CodeConverter/Default.aspx
 ##usage:
 ##ئىشلىتىش ئۇسۇلى:
 
-```javascript
+```C#
 string strCodeTableFile="";
 net.uyghurdev.text.CodeConvert cc = new net.uyghurdev.text.CodeConvert(strCodeTableFile);
 txtNew.Text = cc.ToConvert(txtSource.Text);
