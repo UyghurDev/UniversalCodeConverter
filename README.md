@@ -30,8 +30,8 @@ Live demo: http://lab.uyghurdev.net/CodeConverter/Default.aspx
 ##ئىشلىتىش ئۇسۇلى:
 
 ```C#
-string strCodeTableFile="";
+string strCodeTableFile="ULY2UEY.xml";
 net.uyghurdev.text.CodeConvert cc = new net.uyghurdev.text.CodeConvert(strCodeTableFile);
-txtNew.Text = cc.ToConvert(txtSource.Text);
+txtNew.Text = cc.ToConvert("sarwan");
 ```
 
