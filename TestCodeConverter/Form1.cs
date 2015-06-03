@@ -19,7 +19,7 @@ namespace CodeConverter
             public string Author;
             public string Descraption;
         }
-        string strFilesPath = Application.StartupPath+"\\CodeTables\\";
+        string strFilesPath = Application.StartupPath + "\\CodeTables\\";
         public Form1()
         {
             InitializeComponent();
@@ -45,7 +45,7 @@ namespace CodeConverter
             //cmbTalbles.DataSource = li;
             //cmbTalbles.DisplayMember = "Name";
             //cmbTalbles.ValueMember = "Path";
-
+            if (cmbTables.Items.Contains("UEY2UYY.xml")) { /*cmbTables.SelectedText = "UEY2UYY.xml";*/ cmbTables.SelectedIndex = 12; }
         }
 
         private void btnConvert_Click(object sender, EventArgs e)
@@ -64,6 +64,32 @@ namespace CodeConverter
         {
             frmChar frm = new frmChar();
             frm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtSource.Text = "";
+            txtNew.Text = "";
+        }
+
+        private void txtSource_MouseEnter(object sender, EventArgs e)
+        {
+            txtSource.SelectAll();
+        }
+
+        private void txtNew_MouseEnter(object sender, EventArgs e)
+        {
+            txtNew.SelectAll();
+        }
+
+        private void txtNew_MouseMove(object sender, MouseEventArgs e)
+        {
+            txtNew.SelectAll();
+        }
+
+        private void txtSource_MouseMove(object sender, MouseEventArgs e)
+        {
+            txtSource.SelectAll();
         }
     }
 }

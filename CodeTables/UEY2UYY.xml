@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeConvert Name="ئۇيغۇرچىدىن UYY غا" Descraption="ئۇيغۇر يېزىقىدىكى تېكىستلەرنى يېڭى يېزىققا يېزىلىشقا ئايلاندۇرىدۇ" Author="سارۋان">
+  <Codes>
+    <code ReplaceCode="a" SourceCode="ا" isCompound="false" ></code>
+    <code ReplaceCode="b" SourceCode="ب" isCompound="false" ></code>
+    <code ReplaceCode="c" SourceCode="چ" isCompound="false" ></code>
+    <code ReplaceCode="d" SourceCode="د" isCompound="false" ></code>
+    <code ReplaceCode="ə" SourceCode="ە" isCompound="false" ></code>
+    <code ReplaceCode="f" SourceCode="ف" isCompound="false" ></code>
+    <code ReplaceCode="g" SourceCode="گ" isCompound="false" ></code>
+    <code ReplaceCode="ԧ" SourceCode="ھ" isCompound="false" ></code>
+    <code ReplaceCode="i" SourceCode="ى" isCompound="false" ></code>
+    <code ReplaceCode="j" SourceCode="ج" isCompound="false" ></code>
+    <code ReplaceCode="k" SourceCode="ك" isCompound="false" ></code>
+    <code ReplaceCode="l" SourceCode="ل" isCompound="false" ></code>
+    <code ReplaceCode="m" SourceCode="م" isCompound="false" ></code>
+    <code ReplaceCode="n" SourceCode="ن" isCompound="false" ></code>
+    <code ReplaceCode="o" SourceCode="و" isCompound="false" ></code>
+    <code ReplaceCode="p" SourceCode="پ" isCompound="false" ></code>
+    <code ReplaceCode="қ" SourceCode="ق" isCompound="false" ></code>
+    <code ReplaceCode="r" SourceCode="ر" isCompound="false" ></code>
+    <code ReplaceCode="s" SourceCode="س" isCompound="false" ></code>
+    <code ReplaceCode="t" SourceCode="ت" isCompound="false" ></code>
+    <code ReplaceCode="u" SourceCode="ۇ" isCompound="false" ></code>
+    <code ReplaceCode="w" SourceCode="ۋ" isCompound="false" ></code>
+    <code ReplaceCode="h" SourceCode="خ" isCompound="false" ></code>
+    <code ReplaceCode="y" SourceCode="ي" isCompound="false" ></code>
+    <code ReplaceCode="z" SourceCode="ز" isCompound="false" ></code>
+    <code ReplaceCode="x" SourceCode="ش" isCompound="true" ></code>
+    <code ReplaceCode="q" SourceCode="چ" isCompound="true" ></code>
+    <code ReplaceCode="ⱬ" SourceCode="ژ" isCompound="true" ></code>
+    <code ReplaceCode="ƣ" SourceCode="غ" isCompound="true" ></code>
+    <code ReplaceCode="ng" SourceCode="ڭ" isCompound="true" ></code>
+    <code ReplaceCode="e" SourceCode="ې" isCompound="false" ></code>
+    <code ReplaceCode="ɵ" SourceCode="ۆ" isCompound="false" ></code>
+    <code ReplaceCode="ü" SourceCode="ۈ" isCompound="false" ></code>
+    <code ReplaceCode="," SourceCode="،" isCompound="false" ></code>
+    <code ReplaceCode=";" SourceCode="؛" isCompound="false" ></code>
+    <code ReplaceCode="?" SourceCode="؟" isCompound="false" ></code>
+    <code ReplaceCode="'" SourceCode="ئ" isCompound="true" ></code>
+
+    <Regex>
+      <Replace Regex="\n[a]" Replacement=" A" ReplaceTime="End"></Replace>
+      <Replace Regex="\n[ə]" Replacement=" E" ReplaceTime="End"></Replace>
+      <Replace Regex="\n[e]" Replacement=" É" ReplaceTime="End"></Replace>
+      <Replace Regex="\n[i]" Replacement=" I" ReplaceTime="End"></Replace>
+      <Replace Regex="\n[o]" Replacement=" O" ReplaceTime="End"></Replace>
+      <Replace Regex="\n[u]" Replacement=" U" ReplaceTime="End"></Replace>
+      <Replace Regex="\n[ɵ]" Replacement=" Ö" ReplaceTime="End"></Replace>
+      <Replace Regex="\n[ü]" Replacement=" Ü" ReplaceTime="End"></Replace>
+      <Replace Regex="\s[']" Replacement=" " ReplaceTime="End"></Replace>
+      <Replace Regex="\n[']" Replacement="\n" ReplaceTime="End"></Replace>
+      <Replace Regex="\B[']" Replacement="" ReplaceTime="End"></Replace>
+
+    </Regex>
+  </Codes>
+</CodeConvert>
